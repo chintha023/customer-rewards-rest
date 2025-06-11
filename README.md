@@ -8,8 +8,14 @@ password is "assessment"
 **Notes**: I am using the input data as DB data in the code and processing it for the results rather than having a repository and return static data, that's why I am using only post api endpoints. 
 I am considering the last three months which are completed (for example from today the last three months I am using in my code are March, April and May since June is not yet completed).
 
+Testing process:
+Run the spring boot application class, application will start using the integrated tomcat server on port 8080.
 
-Test data:
+Use the below endpoints and sample test data for testing
+For all customers: http://localhost:8080/customer/rewards/all
+For one customer using customer id: http://localhost:8080/customer/rewards/all
+
+Sample test data:
 [
 {
   "customerId": "CUST1001",
