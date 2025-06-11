@@ -1,7 +1,7 @@
 This Rest service has apis to retrieve the customer rewards for the last three months, for all customers and by customerId as well.
 
 Appliction is secured with Basic authentication.
-username is "charter"
+username is "charter" and
 password is "assessment"
 
 
