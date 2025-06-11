@@ -13,7 +13,7 @@ Run the spring boot application class, application will start using the integrat
 
 Use the below endpoints and sample test data for testing,
 For all customers: http://localhost:8080/customer/rewards/all and
-For one customer using customer id: http://localhost:8080/customer/rewards/all
+For one customer using customer id: http://localhost:8080/customer/rewards/{customerId}
 
 Sample test data:
 [
