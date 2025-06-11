@@ -11,7 +11,7 @@ I am considering the last three months which are completed (for example from tod
 Testing process:
 Run the spring boot application class, application will start using the integrated tomcat server on port 8080.
 
-Use the below endpoints and sample test data for testing
+Use the below endpoints and sample test data for testing,
 For all customers: http://localhost:8080/customer/rewards/all
 For one customer using customer id: http://localhost:8080/customer/rewards/all
 
