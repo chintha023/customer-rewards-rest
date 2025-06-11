@@ -9,7 +9,7 @@ password is "assessment"
 I am considering the last three months which are completed (for example from today the last three months I am using in my code are March, April and May since June is not yet completed).
 
 Testing process:
-Run the spring boot application class, application will start using the integrated tomcat server on port 8080.
+Run the spring boot application class CustomerRewardsRestApplication, application will start using the integrated tomcat server on port 8080.
 
 Use the below endpoints and sample test data for testing,
 For all customers: http://localhost:8080/customer/rewards/all and
