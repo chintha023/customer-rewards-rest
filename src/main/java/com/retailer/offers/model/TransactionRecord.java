@@ -11,11 +11,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TransactionRecord {
-    @NotEmpty(message = "Customer Id is required")
+    @NotBlank(message = "Customer Id is required")
     @Valid
     private String customerId;
 
-    @NotNull
+    @NotEmpty(message = "customer purchases are required")
     @Valid
     private List<CustomerPurchases> customerPurchases;
 }
