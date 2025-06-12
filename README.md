@@ -1,4 +1,4 @@
-This Rest service has Apis to retrieve the customer rewards for the last three months, for all customers and for a single customer by customer Id.
+This Rest service has Apis to retrieve the customer rewards for the last three months, for all customers and for a single customer by customer Id. develop branch has the latest code.
 
 Appliction is secured with Basic authentication.
 username is "charter"
